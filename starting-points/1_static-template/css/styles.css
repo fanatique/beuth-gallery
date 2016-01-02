@@ -1,0 +1,56 @@
+.centered {
+  text-align: center;
+}
+.bar-nav {
+   padding-top:8px;
+}
+.bar-footer {
+  text-align:center;
+}
+
+ul.pictures {
+  /*TODO */
+}
+
+ul.pictures:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+ul.pictures li {
+  max-width: 45%;
+  margin: 4px;
+  display: inline-block;
+  padding: 0;
+}
+
+ul.pictures li img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#theNewPicture {
+  /*TODO */
+}
+
+#loaderModal {
+  opacity: 0.9;
+}
+
+#loaderModal p.content-padded {
+  padding-top:25%;
+}
+
+@media all and (orientation:portrait) {
+    /* Styles for Portrait screen */
+}
+@media all and (orientation:landscape) {
+    /* Styles for Landscape screen */
+    ul.pictures li {
+      max-width: 30%;
+    }
+}
